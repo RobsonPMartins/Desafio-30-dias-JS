@@ -1,0 +1,46 @@
+Conceitos Básicos de JavaScript
+
+1. História do JavaScript
+- Criação: O JavaScript foi criado por **Brendan Eich** em 1995, enquanto trabalhava na Netscape Communications. Inicialmente, ele desenvolveu a linguagem em apenas 10 dias para ser usada como uma linguagem de script para navegadores.
+- Nome Original: O nome original do JavaScript era **Mocha**, depois foi mudado para **LiveScript** e, finalmente, para **JavaScript** como uma estratégia de marketing, já que o Java era muito popular na época. Apesar do nome, **JavaScript** e **Java** são linguagens completamente diferentes.
+- Evolução: Ao longo do tempo, o JavaScript passou por várias atualizações e melhorias. Uma das maiores atualizações ocorreu em 2015 com o **ECMAScript 6 (ES6)**, que trouxe muitas funcionalidades novas, como arrow functions, classes, e o suporte para módulos.
+
+2. Como o JavaScript Funciona no Navegador
+
+O JavaScript é uma **linguagem de programação de alto nível** que foi desenvolvida originalmente para ser executada no navegador e permitir a interação com o usuário de forma dinâmica. Aqui está uma visão geral de como ele funciona no navegador:
+
+1. **Motor JavaScript**: Cada navegador possui um motor JavaScript embutido que é responsável por interpretar e executar o código. Exemplos:
+   - **V8**: Usado pelo Google Chrome e Microsoft Edge.
+   - **SpiderMonkey**: Usado pelo Mozilla Firefox.
+   - **JavaScriptCore**: Usado pelo Safari.
+
+2. **Ciclo de Execução**:
+   - O código JavaScript é lido e interpretado pelo motor do navegador.
+   - O motor converte o código em instruções que podem ser executadas.
+   - O navegador usa essas instruções para manipular o **DOM** (Document Object Model) e criar as interações dinâmicas na página.
+
+3. **HTML, CSS e JavaScript**:  
+   O JavaScript funciona em conjunto com o **HTML** (estrutura da página) e o **CSS** (estilo da página):
+   - **HTML**: Define a estrutura da página, como cabeçalhos, parágrafos e botões.
+   - **CSS**: Estiliza a página, definindo cores, fontes e layouts.
+   - **JavaScript**: Permite a manipulação dinâmica do HTML e CSS, permitindo que o conteúdo da página seja alterado sem recarregar a página inteira.
+
+4. **Eventos**: O JavaScript pode responder a eventos de usuário como cliques, movimento do mouse, teclado, etc. O navegador monitora esses eventos e dispara funções JavaScript específicas quando eles ocorrem.
+
+5. **DOM (Document Object Model)**:
+   - O **DOM** é uma representação da estrutura HTML da página. Com o JavaScript, você pode acessar e modificar o DOM para alterar o conteúdo e a estrutura da página em tempo real.
+   - Exemplo: Você pode alterar o texto de um parágrafo ou adicionar/remover elementos sem precisar recarregar a página.
+
+#### 3. **Execução no Lado do Cliente**
+- **Cliente (Navegador)**: Quando você visita uma página da web, o navegador baixa o código HTML, CSS e JavaScript e os executa diretamente no dispositivo do usuário. O JavaScript manipula a interface do usuário no lado do cliente (no navegador), o que significa que as interações ocorrem sem a necessidade de comunicar com o servidor para cada ação do usuário.
+- **Ambiente Assíncrono**: JavaScript é executado de forma assíncrona, o que permite que o navegador continue processando outras tarefas enquanto o JavaScript lida com eventos ou dados de APIs (como buscar dados de um servidor).
+
+#### 4. **Características do JavaScript**
+- **Interpretado**: Diferente de linguagens compiladas como C ou Java, o JavaScript é uma linguagem **interpretada**, o que significa que o código é executado diretamente pelo navegador sem a necessidade de uma etapa de compilação.
+- **Linguagem Dinâmica**: JavaScript permite a criação de variáveis e estruturas de dados que podem mudar de tipo durante a execução.
+- **Multiparadigma**: JavaScript suporta **programação orientada a objetos**, **funcional**, e **procedural**.
+
+#### 5. **Execução Fora do Navegador**
+- **Node.js**: Embora o JavaScript tenha sido criado inicialmente para funcionar no navegador, ele pode ser executado no servidor usando o **Node.js**, que também usa o motor V8 para rodar o JavaScript fora do ambiente do navegador. Isso permite a criação de aplicações completas (frontend e backend) usando JavaScript.
+
+Esses conceitos fornecem a base necessária para entender como o JavaScript interage com o navegador e como ele pode ser usado para criar interfaces interativas e dinâmicas.
