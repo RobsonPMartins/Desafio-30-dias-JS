@@ -6,8 +6,8 @@ let sobrenome = 'Pereira Martins';
 // Var e let podem ser modificados
 
 const idade01 = 34;
-// O valor atribuido a uma variavel const 
-// é de valor imutável.
+// O valor atribuido a uma variavel const é de valor imutável.
+
 // idade = 36;
 console.log(idade01); //TypeError: Assignment to constant variable.
 
